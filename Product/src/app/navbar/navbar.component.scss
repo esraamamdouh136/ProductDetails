@@ -1,7 +1,7 @@
 nav {
     a.navbar-brand {
-        font-weight: 600;
-        font-size: 28px;
+        font-weight: 500;
+        font-size: 20px;
         margin-right: 68px;
     }
    
@@ -19,18 +19,35 @@ nav {
         position: relative;
     
     span.number {
-        position: absolute;
-        background: red;
-        border-radius: 68%;
-        padding: 3px 5px;
-        font-size: 10px;
-        color: white;
-        font-weight: 700;
-        right: 22px;
-        z-index: 99;
+    position: absolute;
+    background: red;
+    border-radius: 68%;
+    padding: 1px 4px;
+    font-size: 9px;
+    color: white;
+    font-weight: 700;
+    top: 3px;
+    right: 26px;
+    z-index: 99;
     }
+} 
+.md-form input[type=text] {
+    margin-top: 3px !important;
+    border-bottom : none !important;
+    font-size: 11px;
+    letter-spacing: 1.2px;
+
+} 
 }
-    
+
+hr{
+    margin-top: 0px !important;
+}
+
+header small {
+    color: gray;
+    font-size: 11px;
+    letter-spacing: 1px;
 }
 
 
@@ -39,7 +56,8 @@ nav {
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 2rem !important;
     padding-left: .5rem;
-    color: black;
+    font-size: 12px;
+    letter-spacing: 1.2px;
 }
 }
 
